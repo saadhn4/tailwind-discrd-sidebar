@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <div class="fixed top-0 bottom-0 bg-[#1b1c1e] p-7 flex flex-col gap-y-5">
+      <div
+        class="discord-logo-container text-3xl text-white bg-blue-600 p-2 rounded-full h-12 w-12 text-center cursor-pointer"
+      >
+        <i class="bi bi-discord"></i>
+      </div>
+      <div class="bg-white w-12 h-1"></div>
+      <img
+        class="h-12 w-12 rounded-full object-cover object-center cursor-pointer"
+        src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course/refs/heads/main/1-exercise-solutions/lesson-10/cat.jpg"
+        alt=""
+      />
+      <img
+        class="h-12 w-12 rounded-full object-cover object-center cursor-pointer"
+        src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course/refs/heads/main/1-exercise-solutions/lesson-10/cat2.jpg"
+        alt=""
+      />
+      <img
+        class="h-12 w-12 rounded-full object-cover object-center cursor-pointer"
+        src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course/refs/heads/main/1-exercise-solutions/lesson-10/dog.jpg"
+        alt=""
+      />
+    </div>
+    <div
+      class="channels-sidebar fixed top-0 bottom-0 left-24 bg-[#2b2c31] p-8 w-64"
+    >
+      <div class="top flex justify-between items-center mb-5">
+        <h1 class="text-gray-300">INFO</h1>
+        <a href="#" class="text-gray-300 text-lg">+</a>
+      </div>
+      <div class="bottom flex flex-col gap-y-4">
+        <a class="text-white" href="#">#new-videos</a>
+        <a  class="text-white" href="#">#updates</a>
+        <a  class="text-white" href="#">#faq</a>
+      </div>
+    </div>
+  </body>
+</html>
