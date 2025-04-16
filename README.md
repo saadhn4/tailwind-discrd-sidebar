@@ -2,10 +2,6 @@
 
 A simple static UI clone of the Discord sidebar using **Tailwind CSS** and **Bootstrap Icons**.
 
-## 📸 Preview
-
-> A vertical sidebar with user icons and a second panel for channel navigation, mimicking the Discord layout.
-
 ## 🛠️ Tech Stack
 
 - **HTML**
